@@ -1,0 +1,36 @@
+.button{
+            width: Fixed (1,345px)px;
+            height: Hug (1,334px)px;
+            padding: 78px 100px 100px 100px;
+            gap: 64px;
+            text-align: center;
+
+      button{
+         width: Hug (224px)px;
+        height: Hug (67px)px;
+        padding: 24px 48px 24px 48px;
+        gap: 7px;
+        border-radius: 10px;
+        background-color: black;
+
+        h1{
+            width: 128px;
+            height: 19px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.2px;
+            text-align: left;
+            //background-color: aliceblue;
+        }
+      }
+}
+@media(max-width: 599px) {
+    .button{
+        width: Hug (224px)px;
+        height: Hug (67px)px;
+        padding: 24px 48px 24px 48px;
+        gap: 7px;
+        border-radius: 10px;  
+    }
+}

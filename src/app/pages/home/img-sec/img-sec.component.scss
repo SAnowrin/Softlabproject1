@@ -1,0 +1,24 @@
+.img-sec{
+    width: Hug (960px)px;
+    height: Hug (160px)px;
+    top: 3238px;
+    left: 240px;
+    display: flex;
+   // border: 3px solid red;
+    justify-content: center;
+
+
+    img{
+        width: 160px;
+        height: 160px;
+    }
+}
+@media(max-width: 599px){
+    .img-sec{
+        flex-direction: column-reverse;
+        top: 6425px;
+        left: 117px;
+        align-items: center;
+
+    }
+}

@@ -1,0 +1,38 @@
+.location-sec {    
+    width: Fixed (1,437px)px;
+    height: Hug (426px)px;
+    top: 2812px;
+    left: 2px;
+    display: flex;
+   // padding: 100px 159px 100px 159px;
+    background: rgba(255, 255, 255, 1);
+    ;
+    //display: grid;
+   // grid-template-columns: repeat(4, 1fr);
+   // border: 2px solid green ;
+    align-items: center;
+    justify-content: center;
+}
+.loc-content {
+    width: Fill (279.75px)px;
+    height: Fill (226px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px;
+   // border:1px solid #fa1919;
+    border-right: 1px solid gray;
+    
+
+}
+
+@media (max-width: 599px){
+  .location-sec {
+      flex-direction: column-reverse;
+   }
+   .loc-content{
+    width: Fixed (194px)px;
+    height: Fixed (187px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px;
+    border: 0px 1px 0px 0px;
+   }
+}

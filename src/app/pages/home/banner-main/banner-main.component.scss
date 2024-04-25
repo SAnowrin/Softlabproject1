@@ -1,0 +1,24 @@
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    //border: 1px solid red;
+    margin-top: 30px;
+    img {
+        width: 100%;
+        object-fit: cover;
+        //border: 1px solid blue;
+
+    }
+    
+}
+
+@media (max-width: 599px){
+    .banner{
+        background: red;
+        grid-template-columns: 1fr;
+    }
+}
