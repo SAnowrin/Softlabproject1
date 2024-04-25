@@ -112,11 +112,19 @@ h2{
 }
 
 @media (max-width: 599px) {
+
         .footerv2{
             margin-top: 800px;
             position:absolute;
             left:10px;
             gap: 2px;
+
+            width: Fixed (360px)px;
+            height: Hug (774px)px;
+            top: 7513px;
+            left: 17px;
+            padding: 0px 16px 0px 16px;
+
             p{
                 font-size: x-small;
             }
