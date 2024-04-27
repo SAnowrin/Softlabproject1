@@ -52,6 +52,11 @@
 @media (max-width: 599px) {
       .new-products{
         flex-direction: column-reverse;
+        width: Fixed (393px)px;
+        height: Fixed (595px)px;
+        top: 4853px;
+        gap: 48px;
+
         img{
             width: 352px;
             height: 229px;
