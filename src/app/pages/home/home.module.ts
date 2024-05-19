@@ -10,6 +10,9 @@ import { LocationSecComponent } from './location-sec/location-sec.component';
 import { ImgSecComponent } from './img-sec/img-sec.component';
 import { FooterSecComponent } from './footer-sec/footer-sec.component';
 import { ButtonComponent } from './button/button.component';
+import { NavBarModule } from 'src/app/shared/components/nav-bar/nav-bar.module';
+import { PCardModule } from 'src/app/shared/components/p-card/p-card.module';
+import { ContentModule } from '../content/content.module';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { ButtonComponent } from './button/button.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    NavBarModule,
+    PCardModule,
+    ContentModule,
   ]
 })
 export class HomeModule { }

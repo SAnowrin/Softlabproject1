@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesComponent } from './pages/pages.component';
@@ -10,11 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './materials/materials.module';
 import { SwiperModule } from 'swiper/angular';
 import { DigitOnlyModule } from '@uiowa/digit-only';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PagesComponent
+    PagesComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -24,7 +25,9 @@ import { DigitOnlyModule } from '@uiowa/digit-only';
     BrowserAnimationsModule,
     MaterialModule,
     SwiperModule,
-    DigitOnlyModule
+    DigitOnlyModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

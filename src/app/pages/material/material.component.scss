@@ -1,0 +1,38 @@
+// .container{
+//     width: 90%;
+//     max-width: 1200px;
+//     margin: 36px auto;
+//     display: flex;
+//     justify-content: center;
+//     gap: 10px;
+// }
+// .example-margin {
+//     margin: 0 12px;  }
+
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+  }
+  
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 16px auto;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin-bottom: 30px;
+  
+  
+  }

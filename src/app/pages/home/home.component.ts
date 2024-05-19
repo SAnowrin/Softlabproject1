@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   isMenu = false;
 
+  // totallike: number= 0;
+
 
 
 
@@ -18,5 +20,6 @@ export class HomeComponent {
   onToggleMenu(){
        this.isMenu = !this.isMenu;
   }
+  
 
 }

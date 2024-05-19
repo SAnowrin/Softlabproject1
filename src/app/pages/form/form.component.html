@@ -1,0 +1,19 @@
+<form [formGroup]="formData" (ngSubmit)="onSubmit()">
+    <input type="text" placeholder="Name" formControlName="name">
+    <input type="number" placeholder="password" formControlName="price">
+    <input type="email" placeholder="email" formControlName="email">
+    <button type="submit">Submit</button>
+</form>
+
+
+<div class="container">
+    <div class="form-container">
+        <h1>Write to Us</h1>
+
+            <!-- <mat-form-field
+                [hideRequiredMarker]="hideRequiredControl.value"
+                [floatLabel]="getFloatLabelValue()">
+              <input matInput placeholder="Simple placeholder" required>
+            </mat-form-field> -->
+    </div>
+</div>

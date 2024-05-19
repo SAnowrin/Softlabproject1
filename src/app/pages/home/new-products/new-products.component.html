@@ -1,10 +1,101 @@
-<div class="new-products">
-    <div>
-        <img src="../../../assets/images/img/item2.png" alt="">
-    </div>
-    <div class="new-content">
-        <h4>New Arrivals</h4>
-        <h1><b>Wooden Snail <br>Decor</b></h1>
-        <button>Order Now</button>
-    </div>
-</div>
+<div class="container">
+
+    <div class="main">
+
+        <div class="sub">
+
+            <div class="lftpart">
+
+                <div class="pic">
+                    <img src="../../../../assets/images/img-2/image-33.png" alt="">
+                </div>
+
+                <div class="btn">
+                    <button>Product</button>
+                </div>
+
+                <div class="heads">
+                    <h1>Certainly listening no behaviour existence assurance situation</h1>
+                </div>
+
+                <div class="info">
+
+                    <span>
+                        <p>admin</p>
+                    </span>
+
+                    <span>
+                        <img src="../../../../assets/images/img-2/calendar_month_20dp_FILL0_wght400_GRAD0_opsz20.svg"
+                            alt="">
+                    </span>
+
+                    <span>
+                        <p>jul/15/2018</p>
+                    </span>
+
+                    <span>
+                        <img src="../../../../assets/images/img-2/forum_20dp_FILL0_wght400_GRAD0_opsz20.svg" alt="">
+                    </span>
+
+                    <span>
+                        <p>01</p>
+                    </span>
+
+                    <span>
+                        <img src="../../../../assets/images/img-2/visibility_20dp_FILL0_wght400_GRAD0_opsz20.svg"
+                            alt="">
+                    </span>
+
+                    <span>
+                        <p>301</p>
+                    </span>
+
+                </div>
+
+                <div class="para">
+                    <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralised by the
+                        charms of pleasure of the moment, so blinded by their desire.</p>
+                </div>
+
+            </div>
+
+            <div class="rghtpart">
+
+                <div class="headd">
+                    <h2>POPULAR POST</h2>
+                </div>
+
+                <div class="column">
+                    <div class="card" *ngFor="let infos of items">
+                        <div class="picincard">
+                            <img [src]="infos.imagess" alt="">
+                        </div>
+
+                        <div class="picdetail">
+                            <div class="detail">
+                                <p>{{infos.para}}</p>
+                            </div>
+                            <div class="infoss">
+                                <span>
+                                    <p>{{infos.name}}</p>
+                                </span>
+                                <span><img [src]="infos.calenderimg" alt=""></span>
+                                <span>
+                                    <p>{{infos.dates}}</p>
+                                </span>
+                                <span><img [src]="infos.commentimg" alt=""></span>
+                                <span>
+                                    <p>{{infos.commentnum}}</p>
+                                </span>
+                                <span><img [src]="infos.eyeimg" alt=""></span>
+                                <span>
+                                    <p>{{infos.eyenum}}</p>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- right part end here -->

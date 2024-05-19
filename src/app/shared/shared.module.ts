@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HeroSecComponent } from './components/hero-sec/hero-sec.component';
+
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HeroSecComponent
+  ],
   imports: [
     CommonModule
   ]

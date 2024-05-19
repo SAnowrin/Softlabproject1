@@ -1,70 +1,160 @@
-.new-products {
-
-    background-color: rgba(250, 244, 241, 1);
-   // border: 3px solid green;
-    width: Fixed (1,345px)px;
-    height: Fixed (549px)px;
-    top: 2263px;
-    left: 48px;
-     padding: 0px 2px 0px 2px;
-    gap: 160px;
+.main {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 60px;
-    img{ 
-        width: 442px;
-        height: 287px;
+    width: 100%;
+  }
+  
+  .sub {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    //   border: 1px solid red;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    //   align-items: center;
+    gap: 25px;
+  }
+  .lftpart {
+    display: flex;
+    flex-direction: column;
+    //   justify-content: center;
+    align-items: center;
+    gap: 7px;
+  
+    .pic {
+      img {
+        width: 700px;
+        height: 400px;
+        object-fit: cover;
+      }
     }
-}
-.new-content{
-    font-size: 34px;
-    gap: 12px;
-
-    h4 {
-        
-        font-size: 21px;
-        font-weight: 600;
-        line-height: 30px;
-        text-align: left;
+  
+    .heads {
+      display: flex;
+      h1 {
+        font-size: 22px;
+      }
     }
-    h1{
-        font-family: Montserrat;
-        font-size: 46px;
-        font-weight: 700;
-        line-height: 58px;
-        text-align: left;
+  
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+  
+      p {
+        font-size: 12px;
+      }
+      img {
+        width: 15px;
+        height: 15px;
+      }
     }
-
-    button{
-        width: Hug (173px)px;
-        height: Hug (67px)px;
-        padding: 24px 48px 24px 48px;
-        gap: 7px;
-        border-radius: 10px;
-        border: 1px solid black;
-
-        
+  }
+  .btn {
+    button {
+      margin-top: 25px;
+      margin-bottom: 15px;
+      border: 0;
+      padding: 5px 25px;
+      background-color: rgb(214, 21, 21);
+      color: white;
+      border-radius: 5px;
     }
-   
-}
-
-@media (max-width: 599px) {
-      .new-products{
-        flex-direction: column-reverse;
-        width: Fixed (393px)px;
-        height: Fixed (595px)px;
-        top: 4853px;
-        gap: 48px;
-
-        img{
-            width: 352px;
-            height: 229px;
+  }
+  
+  .para {
+    width: 650px;
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .rghtpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //   align-items: center;
+    gap: 15px;
+  }
+  .headd {
+    h2 {
+      font-size: 14px;
+      color: red;
+      // text-align: left;
+      border-bottom: 1px solid red;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .picincard {
+    img {
+      width: 100px;
+      height: 70px;
+      object-fit: cover;
+    }
+  }
+  .picdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //   align-items: center;
+    gap: 3px;
+  
+    .detail {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .infoss {
+    display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    gap: 5px;
+    img {
+      width: 15px;
+      height: 15px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    
+    .sub {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .pic {
+        img {
+          width: 700px;
+          height: 400px;
+          object-fit: cover;
         }
       }
-}
-   
-      
-        
-    
+  }
 
+@media screen and (max-width: 599px) {
+    .pic {
+      img {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  } 
